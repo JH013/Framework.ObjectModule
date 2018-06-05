@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TargetDbs>
+  <ConnectionInfo ConnectionName="Default" DBType="SqlServer" DataSource="DESKTOP-P9N8G9T\WZSQLSERVER" InitialCatalog="SixOneTestDB" UserId="sa" Password="wz.12345654321"></ConnectionInfo>
+  <ConnectionInfo ConnectionName="Hz" DBType="SqlServer" DataSource="DESKTOP-P9N8G9T\WZSQLSERVER" InitialCatalog="HzDB" UserId="sa" Password="wz.12345654321"></ConnectionInfo>
+  <ConnectionInfo ConnectionName="Hz2" DBType="SqlServer" DataSource="DESKTOP-P9N8G9T\WZSQLSERVER" InitialCatalog="HzDB2" UserId="sa" Password="wz.12345654321"></ConnectionInfo>
+</TargetDbs>

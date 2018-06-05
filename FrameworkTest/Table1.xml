@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Schemas>
+  <Schema Name="Student">
+    <Attribute AttributeName="Id" AttributeType="nvarchar" AttributeSize="50" IsPrimaryKey="true" IsNotNull="true"></Attribute>
+    <Attribute AttributeName="Name" AttributeType="nvarchar" AttributeSize="100" IsPrimaryKey="false" IsNotNull="true"></Attribute>
+    <Attribute AttributeName="Age" AttributeType="int" IsPrimaryKey="false" IsNotNull="false"></Attribute>
+    <Attribute AttributeName="Weight" AttributeType="int" IsPrimaryKey="false" IsNotNull="false"></Attribute>
+  </Schema>
+  <Schema Name="Teacher">
+    <Attribute AttributeName="Id" AttributeType="nvarchar" AttributeSize="30" IsPrimaryKey="true" IsNotNull="true"></Attribute>
+    <Attribute AttributeName="Name" AttributeType="nvarchar" AttributeSize="50" IsPrimaryKey="false" IsNotNull="false"></Attribute>
+  </Schema>
+  <Schema Name="Boss">
+    <Attribute AttributeName="Id" AttributeType="nvarchar" AttributeSize="60" IsPrimaryKey="true" IsNotNull="true"></Attribute>
+    <Attribute AttributeName="Name" AttributeType="nvarchar" AttributeSize="110" IsPrimaryKey="false" IsNotNull="true"></Attribute>
+  </Schema>
+</Schemas>
